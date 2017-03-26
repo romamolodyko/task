@@ -1,0 +1,40 @@
+.container {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.task__item {
+    padding-left: 0;
+}
+.task__container {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    background: #e1dddd;
+    border: 1px solid #c9c3c3;
+    padding: 10px;
+    border-radius:2px;
+}
+
+.task {
+    display: flex;
+    background: #fff;
+    border: 1px solid #918d8d;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 5px 0;
+}
+.task:hover {
+    cursor: pointer;
+}
+.task__name {
+    flex-grow: 1;
+}
+.task__header {
+    text-align: center;
+    border-bottom: 1px solid #c0bbbb;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    color: #716f6f;
+}
