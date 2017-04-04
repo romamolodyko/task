@@ -1,2 +1,2 @@
 # task
-SImple Task
+Simple Task
